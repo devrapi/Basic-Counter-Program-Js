@@ -1,0 +1,44 @@
+#CountLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: helvetica;
+    margin-top: 2em;
+}
+#buttonContainer{
+    text-align: center;
+
+}
+.buttons{
+    padding: 15px 25px;
+    font-size: 1.5em;
+    color: white;
+    background-color: hsl(214, 100%, 74%);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+#increase:hover{
+    background-color:hsl(246, 95%, 48%);
+}
+#decrease:hover{
+    background-color:hsl(0, 92%, 48%);
+}
+#reset:hover{
+    background-color:hsl(135, 92%, 42%);
+}
+
+#decrease{
+    margin-right: 10px;
+  
+}
+#reset{
+    margin-right: 10px;
+    
+}
+#increase{
+    margin-right: 10px;
+}
+#body{
+    background-color: hsl(54, 84%, 53%);
+}
